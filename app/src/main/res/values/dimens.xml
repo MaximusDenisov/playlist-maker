@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standart_text_main_page_size">22sp</dimen>
+    <dimen name="standart_text_setting_page_size">20sp</dimen>
+    <dimen name="standart_indent_main_page_size">16dp</dimen>
+    <dimen name="standart_start_indent_screen_page_size">24dp</dimen>
+    <dimen name="standart_letter_spacing_size">-0.05</dimen>
+    <dimen name="standart_radius_size">16dp</dimen>
+    <dimen name="minimal_indent_size">4dp</dimen>
+    <dimen name="standart_indent_size">12dp</dimen>
+    <dimen name="square_side_size">24dp</dimen>
+</resources>
