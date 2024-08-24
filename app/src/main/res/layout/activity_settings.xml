@@ -37,10 +37,10 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="@dimen/standart_indent_size"
                 android:layout_weight="3"
-                android:contentDescription="@string/settings_for_screen"
+                android:contentDescription="@string/settings"
                 android:fontFamily="@font/ysd_medium"
                 android:letterSpacing="-0.05"
-                android:text="@string/settings_for_screen"
+                android:text="@string/settings"
                 android:textColor="@color/black"
                 android:textSize="@dimen/standart_text_setting_page_size" />
 

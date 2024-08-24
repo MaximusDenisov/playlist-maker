@@ -2,8 +2,7 @@
     <string name="app_name" translatable="false">Playlist maker</string>
     <string name="search" translatable="false">Поиск</string>
     <string name="media" translatable="false">Медиатека</string>
-    <string name="settings_for_button" translatable="false">Настройка</string>
-    <string name="settings_for_screen" translatable="false">Настройки</string>
+    <string name="settings" translatable="false">Настройки</string>
     <string name="dark_theme_setting">Темная тема</string>
     <string name="share_app_setting">Поделиться приложением</string>
     <string name="write_to_support_setting">Написать в поддержку</string>

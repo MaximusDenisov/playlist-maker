@@ -34,6 +34,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/search_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -42,6 +43,7 @@
         android:backgroundTint="@color/white"
         android:contentDescription="Кнопка поиска"
         android:fontFamily="@font/ysd_medium"
+        android:foreground="?attr/selectableItemBackground"
         android:gravity="center"
         android:letterSpacing="@dimen/standart_letter_spacing_size"
         android:text="@string/search"
@@ -55,6 +57,7 @@
         app:iconTint="@color/black" />
 
     <Button
+        android:id="@+id/media_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -63,6 +66,7 @@
         android:backgroundTint="@color/white"
         android:contentDescription="Кнопка медиатека"
         android:fontFamily="@font/ysd_medium"
+        android:foreground="?attr/selectableItemBackground"
         android:gravity="center"
         android:letterSpacing="@dimen/standart_letter_spacing_size"
         android:text="@string/media"
@@ -76,6 +80,7 @@
         app:iconTint="@color/black" />
 
     <Button
+        android:id="@+id/settings_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -84,9 +89,10 @@
         android:backgroundTint="@color/white"
         android:contentDescription="Кнопка настроек"
         android:fontFamily="@font/ysd_medium"
+        android:foreground="?attr/selectableItemBackground"
         android:gravity="center"
         android:letterSpacing="@dimen/standart_letter_spacing_size"
-        android:text="@string/settings_for_button"
+        android:text="@string/settings"
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="@dimen/standart_text_main_page_size"
