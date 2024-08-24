@@ -18,12 +18,14 @@
             android:layout_weight="9">
 
             <Button
+                android:id="@+id/back_button"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_gravity="start"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/name_button_to_main_page"
+                android:foreground="?attr/selectableItemBackground"
                 app:icon="@drawable/arrow_ic_vector"
                 app:iconGravity="textStart"
                 app:iconPadding="@dimen/minimal_indent_size"
