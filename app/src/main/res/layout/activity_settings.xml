@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/standart_start_indent_screen_page_size"
         app:navigationIcon="@drawable/arrow_ic_vector"
-        app:title="Настройки"
+        app:title="@string/settings"
         app:titleTextAppearance="@style/SettingsToolBar" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
