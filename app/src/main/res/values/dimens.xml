@@ -8,5 +8,7 @@
     <dimen name="standart_radius_size">16dp</dimen>
     <dimen name="minimal_indent_size">4dp</dimen>
     <dimen name="standart_indent_size">12dp</dimen>
-    <dimen name="square_side_size">24dp</dimen>
+    <dimen name="square_side_size">48dp</dimen>
+    <dimen name="base_inset_for_attribute">0dp</dimen>
+    <dimen name="height_for_attribute_settings">72dp</dimen>
 </resources>
