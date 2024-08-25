@@ -6,50 +6,13 @@
     android:orientation="vertical">
 
     <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/settings_toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/standart_start_indent_screen_page_size"
-        app:contentInsetLeft="@dimen/base_inset_for_attribute"
-        app:contentInsetStart="@dimen/base_inset_for_attribute"
-        app:contentInsetStartWithNavigation="@dimen/base_inset_for_attribute">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start">
-
-            <Button
-                android:id="@+id/back_button"
-                android:layout_width="@dimen/square_side_size"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:contentDescription="@string/name_button_to_main_page"
-                android:foreground="?attr/selectableItemBackground"
-                android:paddingStart="15dp"
-                app:icon="@drawable/arrow_ic_vector"
-                app:iconTint="@color/black" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:contentDescription="@string/settings"
-                android:fontFamily="@font/ysd_medium"
-                android:letterSpacing="-0.05"
-                android:layout_marginStart="10dp"
-                android:text="@string/settings"
-                android:textColor="@color/black"
-                android:textSize="@dimen/standart_text_setting_page_size" />
-
-        </LinearLayout>
-
-        <Button
-            android:layout_width="@dimen/square_side_size"
-            android:layout_height="match_parent"
-            android:layout_gravity="end"
-            android:visibility="invisible" />
-
-    </com.google.android.material.appbar.MaterialToolbar>
+        app:navigationIcon="@drawable/arrow_ic_vector"
+        app:title="Настройки"
+        app:titleTextAppearance="@style/SettingsToolBar" />
 
     <com.google.android.material.switchmaterial.SwitchMaterial
         android:layout_width="match_parent"
@@ -65,11 +28,11 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_for_attribute_settings"
         android:layout_gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="@dimen/standart_indent_main_page_size"
         android:contentDescription="@string/share_app_setting"
         android:fontFamily="@font/ysd_regular"
         android:gravity="center_vertical"
+        android:paddingStart="@dimen/standart_indent_main_page_size"
+        android:paddingEnd="@dimen/standart_indent_main_page_size"
         android:text="@string/share_app_setting"
         android:textColor="@color/black"
         android:textSize="@dimen/standart_text_setting_page_size"
@@ -79,11 +42,11 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_for_attribute_settings"
         android:layout_gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="@dimen/standart_indent_size"
         android:contentDescription="@string/write_to_support_setting"
         android:fontFamily="@font/ysd_regular"
         android:gravity="center_vertical"
+        android:paddingStart="@dimen/standart_indent_main_page_size"
+        android:paddingEnd="@dimen/standart_indent_size"
         android:text="@string/write_to_support_setting"
         android:textColor="@color/black"
         android:textSize="@dimen/standart_text_setting_page_size"
@@ -93,11 +56,11 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_for_attribute_settings"
         android:layout_gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="20dp"
         android:contentDescription="@string/user_agreement_setting"
         android:fontFamily="@font/ysd_regular"
         android:gravity="center_vertical"
+        android:paddingStart="@dimen/standart_indent_main_page_size"
+        android:paddingEnd="20dp"
         android:text="@string/user_agreement_setting"
         android:textColor="@color/black"
         android:textSize="@dimen/standart_text_setting_page_size"
