@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsToolBar" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/standart_text_main_page_size</item>
+        <item name="android:fontFamily">@font/ysd_medium</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
