@@ -5,13 +5,51 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/search_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/search_universal_size"
         android:fontFamily="@font/ysd_medium"
-        android:gravity="center"
-        android:text="@string/search"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_main_page_size" />
+        android:textColor="?attr/colorOnSecondary"
+        android:textSize="@dimen/standart_text_main_page_size"
+        android:theme="@style/Base.Theme.PlaylistMaker"
+        app:title="@string/search" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_for_search_input"
+            android:layout_marginHorizontal="@dimen/standart_indent_main_page_size"
+            android:background="@drawable/search_edittext"
+            android:drawableStart="@drawable/search_ic_vector"
+            android:drawablePadding="@dimen/search_universal_size"
+            android:drawableTint="?attr/colorAccent"
+            android:hint="@string/search"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingHorizontal="@dimen/search_universal_size"
+            android:textColor="?attr/colorOnPrimary"
+            android:textColorHint="?attr/colorAccent"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:theme="@style/Base.Theme.PlaylistMaker" />
+
+        <ImageView
+            android:id="@+id/clearIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/standart_radius_size"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:visibility="gone" />
+
+
+    </FrameLayout>
+
 
 </LinearLayout>

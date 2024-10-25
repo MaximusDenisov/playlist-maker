@@ -10,60 +10,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/standart_start_indent_screen_page_size"
-        app:navigationIcon="@drawable/arrow_ic_vector"
+        android:textSize="@dimen/standart_text_main_page_size"
+        android:fontFamily="@font/ysd_medium"
+        android:textColor="?attr/colorOnSecondary"
         app:title="@string/settings"
-        app:titleTextAppearance="@style/SettingsToolBar" />
+        android:theme="@style/Base.Theme.PlaylistMaker"/>
 
     <com.google.android.material.switchmaterial.SwitchMaterial
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/height_for_attribute_settings"
-        android:fontFamily="@font/ysd_regular"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="@dimen/standart_indent_size"
+        style="@style/ButtonOnSettingPage"
+        android:contentDescription="@string/dark_theme_setting"
         android:text="@string/dark_theme_setting"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_setting_page_size" />
+        android:paddingEnd="@dimen/standart_indent_size" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/height_for_attribute_settings"
-        android:layout_gravity="center_vertical"
+        android:id="@+id/shareAppButton"
+        style="@style/ButtonOnSettingPage"
         android:contentDescription="@string/share_app_setting"
-        android:fontFamily="@font/ysd_regular"
-        android:gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="@dimen/standart_indent_main_page_size"
         android:text="@string/share_app_setting"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_setting_page_size"
+        android:paddingEnd="@dimen/standart_indent_main_page_size"
         app:drawableEndCompat="@drawable/share_app_ic_vector" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/height_for_attribute_settings"
-        android:layout_gravity="center_vertical"
+        android:id="@+id/writeToSupportButton"
+        style="@style/ButtonOnSettingPage"
         android:contentDescription="@string/write_to_support_setting"
-        android:fontFamily="@font/ysd_regular"
-        android:gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="@dimen/standart_indent_size"
         android:text="@string/write_to_support_setting"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_setting_page_size"
+        android:paddingEnd="@dimen/standart_indent_size"
         app:drawableEndCompat="@drawable/write_to_support_ic_vector" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/height_for_attribute_settings"
-        android:layout_gravity="center_vertical"
+        android:id="@+id/userAgreementButton"
+        style="@style/ButtonOnSettingPage"
         android:contentDescription="@string/user_agreement_setting"
-        android:fontFamily="@font/ysd_regular"
-        android:gravity="center_vertical"
-        android:paddingStart="@dimen/standart_indent_main_page_size"
-        android:paddingEnd="20dp"
         android:text="@string/user_agreement_setting"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_setting_page_size"
+        android:paddingEnd="20dp"
         app:drawableEndCompat="@drawable/user_agreement_ic_vector" />
 
 </LinearLayout>

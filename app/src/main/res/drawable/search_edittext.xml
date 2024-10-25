@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?attr/colorOnBackground"/>
+    <corners
+        android:bottomRightRadius="@dimen/search_universal_size"
+        android:bottomLeftRadius="@dimen/search_universal_size"
+        android:topLeftRadius="@dimen/search_universal_size"
+        android:topRightRadius="@dimen/search_universal_size"/>
+</shape>

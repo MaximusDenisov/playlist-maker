@@ -11,4 +11,6 @@
     <dimen name="square_side_size">48dp</dimen>
     <dimen name="base_inset_for_attribute">0dp</dimen>
     <dimen name="height_for_attribute_settings">72dp</dimen>
+    <dimen name="height_for_search_input">36dp</dimen>
+    <dimen name="search_universal_size">8dp</dimen>
 </resources>
