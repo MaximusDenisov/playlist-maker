@@ -11,7 +11,7 @@
     <string name="button">Кнопка</string>
     <string name="dark_theme">Темная тема</string>
     <string name="choose_app_for_share">Выберите приложение для отправки:</string>
-    <string name="url_course">https://practicum.yandex.ru/profile/android-developer-plus/</string>
+    <string name="url_course">https://practicum.yandex.ru/android-developer/?from=catalog</string>
     <string name="dev_mail">maximdenisov34@gmail.com</string>
     <string name="title_mail_for_dev">Сообщение разработчикам и разработчицам приложения Playlist Maker</string>
     <string name="text_mail_for_dev">Спасибо разработчикам и разработчицам за крутое приложение!</string>

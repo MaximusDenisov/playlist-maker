@@ -41,11 +41,11 @@
 
         <ImageView
             android:id="@+id/clearIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
             android:layout_gravity="end|center_vertical"
-            android:layout_marginEnd="@dimen/standart_radius_size"
-            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_marginEnd="@dimen/standart_start_indent_screen_page_size"
+            android:src="@drawable/cancel_close_x"
             android:visibility="gone" />
 
 
