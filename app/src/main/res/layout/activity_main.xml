@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main_background"
+    android:background="?attr/colorPrimary"
     android:orientation="vertical">
 
     <LinearLayout
@@ -35,71 +35,23 @@
 
     <Button
         android:id="@+id/search_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/standart_indent_size"
-        android:layout_weight="1"
-        android:backgroundTint="@color/white"
+        style="@style/ButtonOnMainPage"
         android:contentDescription="@string/search"
-        android:fontFamily="@font/ysd_medium"
-        android:foreground="?attr/selectableItemBackground"
-        android:gravity="center"
-        android:letterSpacing="@dimen/standart_letter_spacing_size"
         android:text="@string/search"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_main_page_size"
-        app:cornerRadius="@dimen/standart_radius_size"
-        app:icon="@drawable/search_ic_vector"
-        app:iconGravity="textStart"
-        app:iconPadding="@dimen/minimal_indent_size"
-        app:iconTint="@color/black" />
+        app:icon="@drawable/search_ic_vector" />
 
     <Button
         android:id="@+id/media_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="@dimen/standart_indent_size"
-        android:layout_weight="1"
-        android:backgroundTint="@color/white"
+        style="@style/ButtonOnMainPage"
         android:contentDescription="@string/media"
-        android:fontFamily="@font/ysd_medium"
-        android:foreground="?attr/selectableItemBackground"
-        android:gravity="center"
-        android:letterSpacing="@dimen/standart_letter_spacing_size"
         android:text="@string/media"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_main_page_size"
-        app:cornerRadius="@dimen/standart_radius_size"
-        app:icon="@drawable/media_ic_vector"
-        app:iconGravity="textStart"
-        app:iconPadding="@dimen/minimal_indent_size"
-        app:iconTint="@color/black" />
+        app:icon="@drawable/media_ic_vector" />
 
     <Button
         android:id="@+id/settings_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/standart_indent_size"
-        android:layout_weight="1"
-        android:backgroundTint="@color/white"
+        style="@style/ButtonOnMainPage"
         android:contentDescription="@string/settings"
-        android:fontFamily="@font/ysd_medium"
-        android:foreground="?attr/selectableItemBackground"
-        android:gravity="center"
-        android:letterSpacing="@dimen/standart_letter_spacing_size"
         android:text="@string/settings"
-        android:textAllCaps="false"
-        android:textColor="@color/black"
-        android:textSize="@dimen/standart_text_main_page_size"
-        app:cornerRadius="@dimen/standart_radius_size"
-        app:icon="@drawable/settings_ic_vector"
-        app:iconGravity="textStart"
-        app:iconPadding="@dimen/minimal_indent_size"
-        app:iconTint="@color/black" />
+        app:icon="@drawable/settings_ic_vector" />
 
 </LinearLayout>
