@@ -16,11 +16,7 @@ import com.example.playlistmaker.media.TrackAdapter
 import com.google.android.material.appbar.MaterialToolbar
 
 class SearchActivity : AppCompatActivity() {
-    companion object {
-        const val SAVED_TEXT = "SAVED_TEXT"
-        const val EMPTY_STRING = ""
-    }
-    private var someText: String = EMPTY_STRING
+    private var someText = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -76,8 +72,8 @@ class SearchActivity : AppCompatActivity() {
         }
     }
 
-    private fun getMockDataTracks(): ArrayList<Track> {
-        return arrayListOf<Track>(
+    private fun getMockDataTracks(): List<Track> {
+        return arrayListOf(
             Track(
                 "Smells Like Teen Spirit",
                 "Nirvana",
@@ -110,5 +106,7 @@ class SearchActivity : AppCompatActivity() {
             ),
         )
     }
-
+    companion object {
+        const val SAVED_TEXT = "SAVED_TEXT"
+    }
 }
