@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/standart_height_for_track_in_search"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/image_for_track"
+        android:layout_width="@dimen/standart_search_image_size"
+        android:layout_height="@dimen/standart_search_image_size"
+        android:layout_gravity="center"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="8dp"
+        tools:src="@drawable/placeholder" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/standart_plus_indent_size">
+
+        <TextView
+            android:id="@+id/track_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ysd_regular"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="16sp"
+            tools:text="Название трека" />
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ysd_regular"
+            android:textSize="11sp"
+            android:textColor="@color/music_group_name"
+            tools:text="Исполнитель трека" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/standart_indent_size"
+        android:layout_height="@dimen/standart_indent_size"
+        android:layout_marginEnd="19dp"
+        android:src="@drawable/track_arrow_vector"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
